@@ -1,0 +1,17 @@
+const accountId = 144553
+let accountEmail = "hitesh@google.com"
+var accountPassword = "12345"
+accountcity = "jaipur" // also possible
+let accountState;
+//accountId = 2 // rewritting values to a constant value is not allowed
+
+accountEmail = "hc@hc.com"
+accountPassword = "12212"
+accountcity = "Bangaluru"
+
+console.log(accountId);
+/*
+prefer not to use var
+because of issues in block scope and function scope
+*/
+console.table([accountId, accountEmail, accountPassword, accountcity,accountState])
